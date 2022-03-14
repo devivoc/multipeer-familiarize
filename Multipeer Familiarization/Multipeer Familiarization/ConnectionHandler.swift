@@ -73,7 +73,9 @@ extension ConnectionHandler: MCNearbyServiceAdvertiserDelegate
 }
 
 extension ConnectionHandler: MCNearbyServiceBrowserDelegate {
-    //This function is called when a nearby user is found, so we add them to our list
+    //This function is called when a nearby user is found, so we add them to our list.
+    //This is the important one that will have to send shit to the backend I think.
+    //I think we should just have a View object that has access to this list, and the view can get profile info from the backend before displaying it. Could also have a separate handler that references this list and does that instead
   func browser(
     _ browser: MCNearbyServiceBrowser,
     foundPeer peerID: MCPeerID,
