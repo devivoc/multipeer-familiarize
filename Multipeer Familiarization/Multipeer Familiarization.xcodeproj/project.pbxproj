@@ -11,7 +11,8 @@
 		AA95B7D527DFD73900D64520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B7D427DFD73900D64520 /* ContentView.swift */; };
 		AA95B7D727DFD73C00D64520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7D627DFD73C00D64520 /* Assets.xcassets */; };
 		AA95B7DA27DFD73C00D64520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7D927DFD73C00D64520 /* Preview Assets.xcassets */; };
-		AA95B7FE27DFD7A100D64520 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B7FD27DFD7A100D64520 /* Advertiser.swift */; };
+		AA95B7FE27DFD7A100D64520 /* ConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B7FD27DFD7A100D64520 /* ConnectionHandler.swift */; };
+		AA95B80627DFEA8100D64520 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B80527DFEA8100D64520 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,8 @@
 		AA95B7DB27DFD73C00D64520 /* Multipeer_Familiarization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multipeer_Familiarization.entitlements; sourceTree = "<group>"; };
 		AA95B7E027DFD73D00D64520 /* Multipeer FamiliarizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multipeer FamiliarizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA95B7EA27DFD73D00D64520 /* Multipeer FamiliarizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multipeer FamiliarizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA95B7FD27DFD7A100D64520 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		AA95B7FD27DFD7A100D64520 /* ConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandler.swift; sourceTree = "<group>"; };
+		AA95B80527DFEA8100D64520 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +93,8 @@
 			children = (
 				AA95B7D227DFD73900D64520 /* Multipeer_FamiliarizationApp.swift */,
 				AA95B7D427DFD73900D64520 /* ContentView.swift */,
-				AA95B7FD27DFD7A100D64520 /* Advertiser.swift */,
+				AA95B80527DFEA8100D64520 /* MainView.swift */,
+				AA95B7FD27DFD7A100D64520 /* ConnectionHandler.swift */,
 				AA95B7D627DFD73C00D64520 /* Assets.xcassets */,
 				AA95B7DB27DFD73C00D64520 /* Multipeer_Familiarization.entitlements */,
 				AA95B7D827DFD73C00D64520 /* Preview Content */,
@@ -239,7 +242,8 @@
 			files = (
 				AA95B7D527DFD73900D64520 /* ContentView.swift in Sources */,
 				AA95B7D327DFD73900D64520 /* Multipeer_FamiliarizationApp.swift in Sources */,
-				AA95B7FE27DFD7A100D64520 /* Advertiser.swift in Sources */,
+				AA95B80627DFEA8100D64520 /* MainView.swift in Sources */,
+				AA95B7FE27DFD7A100D64520 /* ConnectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
