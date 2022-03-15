@@ -11,7 +11,6 @@ import SwiftUI
 struct multipeer_testApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
         }
     }
 }
