@@ -1,6 +1,6 @@
 //
-//  Multipeer_FamiliarizationApp.swift
-//  Multipeer Familiarization
+//  multipeer_testApp.swift
+//  multipeer-test
 //
 //  Created by Christian DeVivo on 3/14/22.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Multipeer_FamiliarizationApp: App {
+struct multipeer_testApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

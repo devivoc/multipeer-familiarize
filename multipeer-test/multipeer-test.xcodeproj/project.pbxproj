@@ -7,60 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA95B7D327DFD73900D64520 /* Multipeer_FamiliarizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B7D227DFD73900D64520 /* Multipeer_FamiliarizationApp.swift */; };
-		AA95B7D527DFD73900D64520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B7D427DFD73900D64520 /* ContentView.swift */; };
-		AA95B7D727DFD73C00D64520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7D627DFD73C00D64520 /* Assets.xcassets */; };
-		AA95B7DA27DFD73C00D64520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B7D927DFD73C00D64520 /* Preview Assets.xcassets */; };
-		AA95B7FE27DFD7A100D64520 /* ConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B7FD27DFD7A100D64520 /* ConnectionHandler.swift */; };
-		AA95B80627DFEA8100D64520 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B80527DFEA8100D64520 /* MainView.swift */; };
+		AA95B81427E00E0800D64520 /* multipeer_testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B81327E00E0800D64520 /* multipeer_testApp.swift */; };
+		AA95B81627E00E0800D64520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B81527E00E0800D64520 /* ContentView.swift */; };
+		AA95B81827E00E0D00D64520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B81727E00E0D00D64520 /* Assets.xcassets */; };
+		AA95B81B27E00E0D00D64520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA95B81A27E00E0D00D64520 /* Preview Assets.xcassets */; };
+		AA95B83E27E00E8400D64520 /* ConnectionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA95B83D27E00E8400D64520 /* ConnectionHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AA95B7E127DFD73D00D64520 /* PBXContainerItemProxy */ = {
+		AA95B82127E00E0E00D64520 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA95B7C727DFD73900D64520 /* Project object */;
+			containerPortal = AA95B80827E00E0800D64520 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA95B7CE27DFD73900D64520;
-			remoteInfo = "Multipeer Familiarization";
+			remoteGlobalIDString = AA95B80F27E00E0800D64520;
+			remoteInfo = "multipeer-test";
 		};
-		AA95B7EB27DFD73D00D64520 /* PBXContainerItemProxy */ = {
+		AA95B82B27E00E0E00D64520 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = AA95B7C727DFD73900D64520 /* Project object */;
+			containerPortal = AA95B80827E00E0800D64520 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA95B7CE27DFD73900D64520;
-			remoteInfo = "Multipeer Familiarization";
+			remoteGlobalIDString = AA95B80F27E00E0800D64520;
+			remoteInfo = "multipeer-test";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AA95B7CF27DFD73900D64520 /* Multipeer Familiarization.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multipeer Familiarization.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA95B7D227DFD73900D64520 /* Multipeer_FamiliarizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multipeer_FamiliarizationApp.swift; sourceTree = "<group>"; };
-		AA95B7D427DFD73900D64520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		AA95B7D627DFD73C00D64520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AA95B7D927DFD73C00D64520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AA95B7DB27DFD73C00D64520 /* Multipeer_Familiarization.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multipeer_Familiarization.entitlements; sourceTree = "<group>"; };
-		AA95B7E027DFD73D00D64520 /* Multipeer FamiliarizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multipeer FamiliarizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA95B7EA27DFD73D00D64520 /* Multipeer FamiliarizationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multipeer FamiliarizationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA95B7FD27DFD7A100D64520 /* ConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandler.swift; sourceTree = "<group>"; };
-		AA95B80527DFEA8100D64520 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AA95B81027E00E0800D64520 /* multipeer-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "multipeer-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA95B81327E00E0800D64520 /* multipeer_testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multipeer_testApp.swift; sourceTree = "<group>"; };
+		AA95B81527E00E0800D64520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA95B81727E00E0D00D64520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA95B81A27E00E0D00D64520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA95B82027E00E0E00D64520 /* multipeer-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA95B82A27E00E0E00D64520 /* multipeer-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "multipeer-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA95B83D27E00E8400D64520 /* ConnectionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA95B7CC27DFD73900D64520 /* Frameworks */ = {
+		AA95B80D27E00E0800D64520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA95B7DD27DFD73D00D64520 /* Frameworks */ = {
+		AA95B81D27E00E0E00D64520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA95B7E727DFD73D00D64520 /* Frameworks */ = {
+		AA95B82727E00E0E00D64520 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -70,42 +67,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA95B7C627DFD73900D64520 = {
+		AA95B80727E00E0800D64520 = {
 			isa = PBXGroup;
 			children = (
-				AA95B7D127DFD73900D64520 /* Multipeer Familiarization */,
-				AA95B7D027DFD73900D64520 /* Products */,
+				AA95B81227E00E0800D64520 /* multipeer-test */,
+				AA95B81127E00E0800D64520 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AA95B7D027DFD73900D64520 /* Products */ = {
+		AA95B81127E00E0800D64520 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA95B7CF27DFD73900D64520 /* Multipeer Familiarization.app */,
-				AA95B7E027DFD73D00D64520 /* Multipeer FamiliarizationTests.xctest */,
-				AA95B7EA27DFD73D00D64520 /* Multipeer FamiliarizationUITests.xctest */,
+				AA95B81027E00E0800D64520 /* multipeer-test.app */,
+				AA95B82027E00E0E00D64520 /* multipeer-testTests.xctest */,
+				AA95B82A27E00E0E00D64520 /* multipeer-testUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AA95B7D127DFD73900D64520 /* Multipeer Familiarization */ = {
+		AA95B81227E00E0800D64520 /* multipeer-test */ = {
 			isa = PBXGroup;
 			children = (
-				AA95B7D227DFD73900D64520 /* Multipeer_FamiliarizationApp.swift */,
-				AA95B7D427DFD73900D64520 /* ContentView.swift */,
-				AA95B80527DFEA8100D64520 /* MainView.swift */,
-				AA95B7FD27DFD7A100D64520 /* ConnectionHandler.swift */,
-				AA95B7D627DFD73C00D64520 /* Assets.xcassets */,
-				AA95B7DB27DFD73C00D64520 /* Multipeer_Familiarization.entitlements */,
-				AA95B7D827DFD73C00D64520 /* Preview Content */,
+				AA95B81327E00E0800D64520 /* multipeer_testApp.swift */,
+				AA95B81527E00E0800D64520 /* ContentView.swift */,
+				AA95B83D27E00E8400D64520 /* ConnectionHandler.swift */,
+				AA95B81727E00E0D00D64520 /* Assets.xcassets */,
+				AA95B81927E00E0D00D64520 /* Preview Content */,
 			);
-			path = "Multipeer Familiarization";
+			path = "multipeer-test";
 			sourceTree = "<group>";
 		};
-		AA95B7D827DFD73C00D64520 /* Preview Content */ = {
+		AA95B81927E00E0D00D64520 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				AA95B7D927DFD73C00D64520 /* Preview Assets.xcassets */,
+				AA95B81A27E00E0D00D64520 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -113,83 +108,83 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA95B7CE27DFD73900D64520 /* Multipeer Familiarization */ = {
+		AA95B80F27E00E0800D64520 /* multipeer-test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA95B7F427DFD73D00D64520 /* Build configuration list for PBXNativeTarget "Multipeer Familiarization" */;
+			buildConfigurationList = AA95B83427E00E0E00D64520 /* Build configuration list for PBXNativeTarget "multipeer-test" */;
 			buildPhases = (
-				AA95B7CB27DFD73900D64520 /* Sources */,
-				AA95B7CC27DFD73900D64520 /* Frameworks */,
-				AA95B7CD27DFD73900D64520 /* Resources */,
+				AA95B80C27E00E0800D64520 /* Sources */,
+				AA95B80D27E00E0800D64520 /* Frameworks */,
+				AA95B80E27E00E0800D64520 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Multipeer Familiarization";
-			productName = "Multipeer Familiarization";
-			productReference = AA95B7CF27DFD73900D64520 /* Multipeer Familiarization.app */;
+			name = "multipeer-test";
+			productName = "multipeer-test";
+			productReference = AA95B81027E00E0800D64520 /* multipeer-test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		AA95B7DF27DFD73D00D64520 /* Multipeer FamiliarizationTests */ = {
+		AA95B81F27E00E0E00D64520 /* multipeer-testTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA95B7F727DFD73D00D64520 /* Build configuration list for PBXNativeTarget "Multipeer FamiliarizationTests" */;
+			buildConfigurationList = AA95B83727E00E0E00D64520 /* Build configuration list for PBXNativeTarget "multipeer-testTests" */;
 			buildPhases = (
-				AA95B7DC27DFD73D00D64520 /* Sources */,
-				AA95B7DD27DFD73D00D64520 /* Frameworks */,
-				AA95B7DE27DFD73D00D64520 /* Resources */,
+				AA95B81C27E00E0E00D64520 /* Sources */,
+				AA95B81D27E00E0E00D64520 /* Frameworks */,
+				AA95B81E27E00E0E00D64520 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA95B7E227DFD73D00D64520 /* PBXTargetDependency */,
+				AA95B82227E00E0E00D64520 /* PBXTargetDependency */,
 			);
-			name = "Multipeer FamiliarizationTests";
-			productName = "Multipeer FamiliarizationTests";
-			productReference = AA95B7E027DFD73D00D64520 /* Multipeer FamiliarizationTests.xctest */;
+			name = "multipeer-testTests";
+			productName = "multipeer-testTests";
+			productReference = AA95B82027E00E0E00D64520 /* multipeer-testTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		AA95B7E927DFD73D00D64520 /* Multipeer FamiliarizationUITests */ = {
+		AA95B82927E00E0E00D64520 /* multipeer-testUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA95B7FA27DFD73D00D64520 /* Build configuration list for PBXNativeTarget "Multipeer FamiliarizationUITests" */;
+			buildConfigurationList = AA95B83A27E00E0E00D64520 /* Build configuration list for PBXNativeTarget "multipeer-testUITests" */;
 			buildPhases = (
-				AA95B7E627DFD73D00D64520 /* Sources */,
-				AA95B7E727DFD73D00D64520 /* Frameworks */,
-				AA95B7E827DFD73D00D64520 /* Resources */,
+				AA95B82627E00E0E00D64520 /* Sources */,
+				AA95B82727E00E0E00D64520 /* Frameworks */,
+				AA95B82827E00E0E00D64520 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AA95B7EC27DFD73D00D64520 /* PBXTargetDependency */,
+				AA95B82C27E00E0E00D64520 /* PBXTargetDependency */,
 			);
-			name = "Multipeer FamiliarizationUITests";
-			productName = "Multipeer FamiliarizationUITests";
-			productReference = AA95B7EA27DFD73D00D64520 /* Multipeer FamiliarizationUITests.xctest */;
+			name = "multipeer-testUITests";
+			productName = "multipeer-testUITests";
+			productReference = AA95B82A27E00E0E00D64520 /* multipeer-testUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA95B7C727DFD73900D64520 /* Project object */ = {
+		AA95B80827E00E0800D64520 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					AA95B7CE27DFD73900D64520 = {
+					AA95B80F27E00E0800D64520 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
-					AA95B7DF27DFD73D00D64520 = {
+					AA95B81F27E00E0E00D64520 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = AA95B7CE27DFD73900D64520;
+						TestTargetID = AA95B80F27E00E0800D64520;
 					};
-					AA95B7E927DFD73D00D64520 = {
+					AA95B82927E00E0E00D64520 = {
 						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = AA95B7CE27DFD73900D64520;
+						TestTargetID = AA95B80F27E00E0800D64520;
 					};
 				};
 			};
-			buildConfigurationList = AA95B7CA27DFD73900D64520 /* Build configuration list for PBXProject "Multipeer Familiarization" */;
+			buildConfigurationList = AA95B80B27E00E0800D64520 /* Build configuration list for PBXProject "multipeer-test" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -197,36 +192,36 @@
 				en,
 				Base,
 			);
-			mainGroup = AA95B7C627DFD73900D64520;
-			productRefGroup = AA95B7D027DFD73900D64520 /* Products */;
+			mainGroup = AA95B80727E00E0800D64520;
+			productRefGroup = AA95B81127E00E0800D64520 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA95B7CE27DFD73900D64520 /* Multipeer Familiarization */,
-				AA95B7DF27DFD73D00D64520 /* Multipeer FamiliarizationTests */,
-				AA95B7E927DFD73D00D64520 /* Multipeer FamiliarizationUITests */,
+				AA95B80F27E00E0800D64520 /* multipeer-test */,
+				AA95B81F27E00E0E00D64520 /* multipeer-testTests */,
+				AA95B82927E00E0E00D64520 /* multipeer-testUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA95B7CD27DFD73900D64520 /* Resources */ = {
+		AA95B80E27E00E0800D64520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA95B7DA27DFD73C00D64520 /* Preview Assets.xcassets in Resources */,
-				AA95B7D727DFD73C00D64520 /* Assets.xcassets in Resources */,
+				AA95B81B27E00E0D00D64520 /* Preview Assets.xcassets in Resources */,
+				AA95B81827E00E0D00D64520 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA95B7DE27DFD73D00D64520 /* Resources */ = {
+		AA95B81E27E00E0E00D64520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA95B7E827DFD73D00D64520 /* Resources */ = {
+		AA95B82827E00E0E00D64520 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,25 +231,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA95B7CB27DFD73900D64520 /* Sources */ = {
+		AA95B80C27E00E0800D64520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA95B7D527DFD73900D64520 /* ContentView.swift in Sources */,
-				AA95B7D327DFD73900D64520 /* Multipeer_FamiliarizationApp.swift in Sources */,
-				AA95B80627DFEA8100D64520 /* MainView.swift in Sources */,
-				AA95B7FE27DFD7A100D64520 /* ConnectionHandler.swift in Sources */,
+				AA95B81627E00E0800D64520 /* ContentView.swift in Sources */,
+				AA95B81427E00E0800D64520 /* multipeer_testApp.swift in Sources */,
+				AA95B83E27E00E8400D64520 /* ConnectionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA95B7DC27DFD73D00D64520 /* Sources */ = {
+		AA95B81C27E00E0E00D64520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA95B7E627DFD73D00D64520 /* Sources */ = {
+		AA95B82627E00E0E00D64520 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,20 +258,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AA95B7E227DFD73D00D64520 /* PBXTargetDependency */ = {
+		AA95B82227E00E0E00D64520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA95B7CE27DFD73900D64520 /* Multipeer Familiarization */;
-			targetProxy = AA95B7E127DFD73D00D64520 /* PBXContainerItemProxy */;
+			target = AA95B80F27E00E0800D64520 /* multipeer-test */;
+			targetProxy = AA95B82127E00E0E00D64520 /* PBXContainerItemProxy */;
 		};
-		AA95B7EC27DFD73D00D64520 /* PBXTargetDependency */ = {
+		AA95B82C27E00E0E00D64520 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = AA95B7CE27DFD73900D64520 /* Multipeer Familiarization */;
-			targetProxy = AA95B7EB27DFD73D00D64520 /* PBXContainerItemProxy */;
+			target = AA95B80F27E00E0800D64520 /* multipeer-test */;
+			targetProxy = AA95B82B27E00E0E00D64520 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		AA95B7F227DFD73D00D64520 /* Debug */ = {
+		AA95B83227E00E0E00D64520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -328,17 +322,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		AA95B7F327DFD73D00D64520 /* Release */ = {
+		AA95B83327E00E0E00D64520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,66 +377,73 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AA95B7F527DFD73D00D64520 /* Debug */ = {
+		AA95B83527E00E0E00D64520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Multipeer Familiarization/Multipeer_Familiarization.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Multipeer Familiarization/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"multipeer-test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christian.Multipeer-Familiarization";
+				PRODUCT_BUNDLE_IDENTIFIER = "christian.multipeer-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AA95B7F627DFD73D00D64520 /* Release */ = {
+		AA95B83627E00E0E00D64520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "Multipeer Familiarization/Multipeer_Familiarization.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Multipeer Familiarization/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"multipeer-test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christian.Multipeer-Familiarization";
+				PRODUCT_BUNDLE_IDENTIFIER = "christian.multipeer-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		AA95B7F827DFD73D00D64520 /* Debug */ = {
+		AA95B83827E00E0E00D64520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -450,17 +451,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christian.Multipeer-FamiliarizationTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "christian.multipeer-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multipeer Familiarization.app/Contents/MacOS/Multipeer Familiarization";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-test.app/multipeer-test";
 			};
 			name = Debug;
 		};
-		AA95B7F927DFD73D00D64520 /* Release */ = {
+		AA95B83927E00E0E00D64520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -468,17 +470,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christian.Multipeer-FamiliarizationTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "christian.multipeer-testTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multipeer Familiarization.app/Contents/MacOS/Multipeer Familiarization";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/multipeer-test.app/multipeer-test";
 			};
 			name = Release;
 		};
-		AA95B7FB27DFD73D00D64520 /* Debug */ = {
+		AA95B83B27E00E0E00D64520 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -486,15 +489,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christian.Multipeer-FamiliarizationUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "christian.multipeer-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Multipeer Familiarization";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "multipeer-test";
 			};
 			name = Debug;
 		};
-		AA95B7FC27DFD73D00D64520 /* Release */ = {
+		AA95B83C27E00E0E00D64520 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,54 +506,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christian.Multipeer-FamiliarizationUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "christian.multipeer-testUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "Multipeer Familiarization";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "multipeer-test";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA95B7CA27DFD73900D64520 /* Build configuration list for PBXProject "Multipeer Familiarization" */ = {
+		AA95B80B27E00E0800D64520 /* Build configuration list for PBXProject "multipeer-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA95B7F227DFD73D00D64520 /* Debug */,
-				AA95B7F327DFD73D00D64520 /* Release */,
+				AA95B83227E00E0E00D64520 /* Debug */,
+				AA95B83327E00E0E00D64520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA95B7F427DFD73D00D64520 /* Build configuration list for PBXNativeTarget "Multipeer Familiarization" */ = {
+		AA95B83427E00E0E00D64520 /* Build configuration list for PBXNativeTarget "multipeer-test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA95B7F527DFD73D00D64520 /* Debug */,
-				AA95B7F627DFD73D00D64520 /* Release */,
+				AA95B83527E00E0E00D64520 /* Debug */,
+				AA95B83627E00E0E00D64520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA95B7F727DFD73D00D64520 /* Build configuration list for PBXNativeTarget "Multipeer FamiliarizationTests" */ = {
+		AA95B83727E00E0E00D64520 /* Build configuration list for PBXNativeTarget "multipeer-testTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA95B7F827DFD73D00D64520 /* Debug */,
-				AA95B7F927DFD73D00D64520 /* Release */,
+				AA95B83827E00E0E00D64520 /* Debug */,
+				AA95B83927E00E0E00D64520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA95B7FA27DFD73D00D64520 /* Build configuration list for PBXNativeTarget "Multipeer FamiliarizationUITests" */ = {
+		AA95B83A27E00E0E00D64520 /* Build configuration list for PBXNativeTarget "multipeer-testUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA95B7FB27DFD73D00D64520 /* Debug */,
-				AA95B7FC27DFD73D00D64520 /* Release */,
+				AA95B83B27E00E0E00D64520 /* Debug */,
+				AA95B83C27E00E0E00D64520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AA95B7C727DFD73900D64520 /* Project object */;
+	rootObject = AA95B80827E00E0800D64520 /* Project object */;
 }
